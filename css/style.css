@@ -139,9 +139,12 @@ h1 {
 .extention {
     padding: 0;
     list-style: none;
-    width: 50%;
+    width: fit-content;
     flex-direction: row !important;
     margin: 45px 0;
+    height: 55px;
+    align-items: center;
+    gap: 50px;
 }
 
 .extention li {
@@ -181,8 +184,4 @@ h1 {
     margin: 0;
     color: grey;
     font-size: 20px;
-}
-
-#getting_bullied .extention {
-    width: 90%;
 }
